@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import EditorPanel from './components/EditorPanel';
 import { downloadHTML } from './components/utils/htmlExport';
 import './App.css';
+import logo from './logo.png';
+
 
 function App() {
   const [title, setTitle] = useState('');
@@ -21,10 +23,13 @@ function App() {
 
   return (
     <div className="App">
+      
       <header className="App-header">
         <h1>Pages Generator</h1>
+        <img src={logo} alt="Logo" className='logo'/>
       </header>
       <div className="content-container">
+        
         <EditorPanel
           onTitleChange={handleTitleChange}
           onContentChange={handleContentChange}

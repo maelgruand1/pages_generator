@@ -74,3 +74,17 @@ h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
+.logo {
+  width: 100px;         /* Ajuste la taille du logo */
+  height: auto;         /* Garde les proportions */
+  display: block;       /* Supprime les marges automatiques autour de l'image inline */
+  margin: 0 auto;       /* Centre le logo horizontalement */
+  margin-bottom: -5px;  /* Espace sous le logo */
+}
+.logo:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+
