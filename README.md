@@ -38,7 +38,7 @@ link : https://maelgruand1.github.io/pages_generator/
 --- 
 Voir une prévisualisation de l'application : 
 
-[Voir app](assets/pagesTest.png)
+![Prévisualisation](assets/pagesTest.png)
 
 
 
