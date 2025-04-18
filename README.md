@@ -40,6 +40,11 @@ Voir une prévisualisation de l'application :
 
 ![pageTest](https://github.com/user-attachments/assets/faffe048-b785-4556-b38d-739874c10036)
 
+--- 
+## 🌐 Démo en ligne
+
+👉 [Accéder à Pages Generator](https://maelgruand.github.io/pages-generator/)
+
 
 
 
