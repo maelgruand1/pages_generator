@@ -13,7 +13,7 @@
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/maelgruand/Pages-Generator.git
+git clone https://github.com/maelgruand1/pages_generator.git
 ```
 --- 
 2. Allez dans le répertoire du projet :
@@ -43,7 +43,7 @@ Voir une prévisualisation de l'application :
 --- 
 ## 🌐 Démo en ligne
 
-👉 [Accéder à Pages Generator](https://maelgruand.github.io/pages-generator/)
+👉 [Accéder à Pages Generator](https://maelgruand1.github.io/pages-generator/)
 
 
 
