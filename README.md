@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# Pages Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Pages Generator** est une application React qui permet de générer facilement des pages web avec un titre et un contenu personnalisés. L'utilisateur peut saisir le titre et le contenu de la page dans un éditeur, prévisualiser le rendu en temps réel, puis télécharger la page générée en format HTML.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- **Éditeur de titre et contenu** : Permet à l'utilisateur de saisir un titre et un contenu.
+- **Prévisualisation en temps réel** : Affiche un aperçu immédiat du titre et du contenu saisis.
+- **Téléchargement de la page** : Génère et permet de télécharger une page HTML avec le contenu saisi.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clonez le dépôt :
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+git clone https://github.com/maelgruand/Pages-Generator.git
+```
+--- 
+2. Allez dans le répertoire du projet :
+```bash
+cd Pages-Generator
 
-### `npm test`
+```
+--- 
+3. Installer les dépendances
+```bash
+npm install
+```
+---
+4. Lancer l'application
+```bash
+npm start
+```
+OU
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+link : https://maelgruand1.github.io/pages_generator/
 
-### `npm run build`
+--- 
+Voir une prévisualisation de l'application : 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Voir app](assets/pagesTest.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
