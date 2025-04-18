@@ -1,24 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import EditorPanel from './components/EditorPanel';
+import { downloadHTML } from './components/utils/htmlExport';
 import './App.css';
 
 function App() {
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+
+  const handleTitleChange = (newTitle: string) => {
+    setTitle(newTitle);
+  };
+
+  const handleContentChange = (newContent: string) => {
+    setContent(newContent);
+  };
+
+  const handleDownload = () => {
+    downloadHTML(title, content);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Pages Generator</h1>
       </header>
+      <div className="content-container">
+        <EditorPanel
+          onTitleChange={handleTitleChange}
+          onContentChange={handleContentChange}
+        />
+        <div className="preview">
+          <h2>{title}</h2>
+          <p>{content}</p>
+        </div>
+        <button onClick={handleDownload}>Télécharger la page</button>
+      </div>
     </div>
   );
 }
